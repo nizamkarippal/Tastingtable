@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+    padding-top: 55px;
+}
+.f-page{
+    display: grid;
+    grid-template-columns: 65% 35%;
+    grid-row: 200px 200px;
+}
+
+.grid-1{
+    height: 500px;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    position: relative;
+    cursor: pointer;
+}
+.grid-2{
+
+    height: 250px;
+position: relative;
+}
+.grid-3{
+
+    height: 250px;
+    position: relative;
+
+}
+
+.grid-1-text{
+    position: absolute;
+    top: 400px;
+   padding-left: 40px;
+color: rgb(255,255,255);
+font-family: merriweather;
+font-weight: 400;
+font-style: normal;
+font-size: 35px;
+
+}
+hr{
+    width: 55px;
+    position: absolute;
+    bottom:40px ;
+    border: 1px solid rgb(248, 217, 137);
+}
+.grid-2-text{
+position: absolute;
+top: 175px;
+padding-left: 15px;
+color: rgb(255,255,255);
+font-family: merriweather;
+font-weight: 400;
+font-style: normal;
+font-size: 20px;
+
+}
+#h{
+    width: 55px;
+    position: absolute;
+    bottom:75px ;
+    border: 1px solid rgb(248, 217, 137);
+    margin-left: 15px;  
+}
+
+h2 {
+    width: 100%; 
+    text-align: center; 
+    border-bottom:  1px solid rgb(248, 217, 137); 
+    line-height: 0.1em;
+    margin-top: 55px;
+    margin-bottom: 55px;
+    
+
+ } 
+ 
+ h2 span { 
+     background:#fff; 
+     padding:0 10px;
+     color:rgb(110, 109, 109);
+    
+ }
+ .s-page{
+    
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 15px;
+    column-gap: 17px;
+    row-gap: 17px;
+    background-color:rgb(238, 234, 234) ;}
+  .page-img{
+   position: relative;
+  }  
+    
+    
+ .page-img img{
+    width: 100%;
+
+   
+ }
+ 
+ 
+ .page-content{
+    background-color: white;
+    height: 550px;
+ }
+ .page-info  h3{
+    font-family: merriweather;
+    font-size: 24px;
+    font-weight: 500;
+    font-style: normal;
+    transition: hover 0.15s;
+    cursor: pointer;
+ }
+ .page-info h3:hover{
+   color: rgb(241, 181, 28);;
+ }
+ .page-info p{
+    font-family: merriweather;
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+ }.page-info{
+    padding:0 35px 0 35px;
+    position: relative;
+
+ }
+ .page-info div{
+    position: absolute;
+    bottom: -50px;
+    left: 35px;
+    color: rgb(241, 181, 28);
+    font-family: merriweather;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+ }
+ .page-img  div{
+    position: absolute;
+    bottom:0;
+    left: 0;
+    color: rgb(241, 181, 28);
+    font-family: merriweather;
+    font-size: 21px;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+    padding: 5px;
+    cursor: pointer;
+ }
+ 
+ footer{
+    padding-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+    background-color: rgb(238, 234, 234) ;
+
+ }
+ footer div{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 500;
+ }
+ footer span{
+    color:rgb(241, 181, 28);
+ }

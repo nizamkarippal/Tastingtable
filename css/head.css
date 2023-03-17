@@ -1,0 +1,97 @@
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 55px;
+    background-color:black;
+    position: fixed;
+    z-index: 999;
+    
+}
+.left-side{
+    display: flex;
+    justify-content: center;
+    width: 225px;
+    margin: 15px 0 15px 40px;
+}
+.left-side i{
+color:white;
+height: 27px;
+margin-top: 10px ;
+margin-right: 27px;
+
+
+}
+.left-side img{
+    padding-left: 30px;
+    padding-right: 15PX;
+
+}
+.center{
+    position: absolute;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+   padding-right: 25px; 
+   margin-left: 400px;
+ 
+}
+li{
+    font-family: merriweather;
+    color: rgb(245, 245,245);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    background-color: black;
+    display: inline-block;
+    padding: 15px;
+    cursor: pointer;
+transition: hover 0.14s;
+    }
+    li:hover{
+        background-color:rgb(182, 161, 43);
+    }
+.right-side{
+   width: 200px;
+     position: absolute; 
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+
+   margin-top: 12px;
+   margin-right: 10px;
+    margin-left: 1050px; 
+}
+.right-side i{
+    color: white;
+     padding-right: 25px; 
+    height: 20px;
+    box-sizing: border-box;
+
+
+}
+.f ,.t ,.y ,.in ,.rss ,.star ,.pin{
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 0;
+}
+.f .hover-element,.t .hover-element,.y .hover-element,.in .hover-element,.rss .hover-element,.star .hover-element,.pin .hover-element{
+    position: absolute;
+    color: goldenrod;
+    background-color: beige;
+    padding: 3px 5px;
+    font-size: 10px;
+    bottom: -15px;
+    opacity: 0;
+    transition: opacity 0.10s;
+pointer-events: none;
+}
+.f:hover .hover-element,.t:hover .hover-element,.y:hover .hover-element,.in:hover .hover-element,.rss:hover .hover-element,.star:hover .hover-element,.pin:hover .hover-element{
+    opacity: 1;
+}
+
